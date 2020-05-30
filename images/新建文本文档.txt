@@ -1,0 +1,51 @@
+<div class="second">
+				<div class="third">
+				<img src="images/visa1.jpg" alt="图片1">
+			</div>
+			<div class="fourth">
+				<span class="two">日本旅游签证</span>
+				<span class="three">￥420/人</span>
+			</div>
+				<div class="fifth">
+				<li class="buchongr"><img src="images/visa2.jpg"></li>
+				<li class="buchongr"><img src="images/visa3.jpg"></li>
+				<li class="buchongr"><img src="images/visa4.jpg"></li>
+				<li class="buchongr"><img src="images/visa5.jpg"></li>
+			</div>
+			</div>
+
+
+.buchongr{
+				list-style-type: none;
+				display: inline-block;
+			}
+			
+			.second{
+				height: 600px;
+				background-color: #ddd;
+				margin: auto;
+			}
+			.third{
+				padding-top:20px
+			}
+			.fourth{
+				height: 73px;
+				width: 398px;
+				background: rgba(0,0,0,0.4);
+				position: relative;
+				bottom: 73px;
+			}
+			.one{
+				display:inline-block
+			}
+			.two{
+				font-size: 20px;
+				color: #fff;
+				padding-left: 38px;
+				line-height: 73px;
+				text-align: center;
+			}
+			.three{
+				font-size: 30px;
+				color: #fff;
+			}
